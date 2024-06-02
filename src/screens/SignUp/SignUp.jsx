@@ -28,10 +28,23 @@ export const SignUp = () => {
           <div className="relative w-[486px] h-[606px]">
             <div className="flex flex-col w-[486px] items-start gap-[40px] relative">
               <div className="flex flex-col items-start gap-[24px] relative self-stretch w-full flex-[0_0_auto]">
-                <div className="flex items-start gap-[24px] relative self-stretch w-full flex-[0_0_auto]">
-
-                  <input type="text"
-                    className="!rounded-[15px] !h-[unset] !flex-1 !grow !w-[unset]"/>
+                <div className="self-stretch w-full flex-[0_0_auto] rounded-[4px_4px_0px_0px] flex flex-col items-start relative">
+                  <div className="flex flex-col items-start gap-[10px] relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[15px] border border-solid border-[#79747e]">
+                    <div className="flex items-center pl-[16px] pr-0 py-[4px] relative self-stretch w-full flex-[0_0_auto] rounded-[4px_4px_0px_0px]">
+                      <div className="flex flex-col h-[35px] items-start justify-center relative flex-1 grow">
+                        <div className="inline-flex items-center relative flex-[0_0_auto]">
+                          <div className="relative w-fit mt-[-1.00px] [font-family:'Nunito',Helvetica] font-normal text-tersier-2 text-[16px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+                          <input type="text" size="62" className="!rounded-[15px] !h-[unset] !flex-1 !grow !w-[unset] border-none outline-none"/>
+                          </div>
+                        </div>
+                        <div className="inline-flex items-center px-[4px] py-0 absolute top-[-16px] left-[-4px] bg-white">
+                          <div className="relative w-fit mt-[-1.00px] [font-family:'Nunito',Helvetica] font-normal text-tersier-2 text-[14px] tracking-[0] leading-[19.6px] whitespace-nowrap">
+                            E-mail
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div className="flex w-[486px] items-start gap-[24px] relative flex-[0_0_auto]">
                   <input type="text"
@@ -43,10 +56,10 @@ export const SignUp = () => {
                 <div className="self-stretch w-full flex-[0_0_auto] rounded-[4px_4px_0px_0px] flex flex-col items-start relative">
                   <div className="flex flex-col items-start gap-[10px] relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[15px] border border-solid border-[#79747e]">
                     <div className="flex items-center pl-[16px] pr-0 py-[4px] relative self-stretch w-full flex-[0_0_auto] rounded-[4px_4px_0px_0px]">
-                      <div className="flex flex-col h-[40px] items-start justify-center relative flex-1 grow">
+                      <div className="flex flex-col h-[35px] items-start justify-center relative flex-1 grow">
                         <div className="inline-flex items-center relative flex-[0_0_auto]">
                           <div className="relative w-fit mt-[-1.00px] [font-family:'Nunito',Helvetica] font-normal text-tersier-2 text-[16px] tracking-[0] leading-[22.4px] whitespace-nowrap">
-                            <input type="text" className="border-none outline-none"></input>
+                            <input type="text" size="62" className="border-none outline-none "></input>
                           </div>
                         </div>
                         <div className="inline-flex items-center px-[4px] py-0 absolute top-[-16px] left-[-4px] bg-white">
@@ -61,10 +74,10 @@ export const SignUp = () => {
                 <div className="h-[56px] self-stretch w-full rounded-[4px_4px_0px_0px] flex flex-col items-start relative">
                   <div className="flex flex-col items-start gap-[10px] relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[15px] border border-solid border-[#79747e]">
                     <div className="flex items-center pl-[16px] pr-0 py-[4px] relative self-stretch w-full flex-[0_0_auto] rounded-[4px_4px_0px_0px]">
-                      <div className="flex flex-col h-[40px] items-start justify-center relative flex-1 grow">
+                      <div className="flex flex-col h-[35px] items-start justify-center relative flex-1 grow">
                         <div className="inline-flex items-center relative flex-[0_0_auto]">
                           <div className="relative w-fit mt-[-1.00px] [font-family:'Nunito',Helvetica] font-normal text-tersier-2 text-[16px] tracking-[0] leading-[22.4px] whitespace-nowrap">
-                            {""}
+                            <input type="text" size="58" className="border-none outline-none "></input>
                           </div>
                         </div>
                         <div className="inline-flex items-center px-[4px] py-0 absolute top-[-16px] left-[-4px] bg-white">
@@ -73,7 +86,7 @@ export const SignUp = () => {
                           </div>
                         </div>
                       </div>
-                      <div className="flex flex-col w-[48px] h-[48px] items-center justify-center gap-[10px] p-[12px] relative">
+                      <div className="flex flex-col w-[48px] h-[44px] items-center justify-center gap-[10px] p-[12px] relative">
                         <EyeOff className="!relative !w-[24px] !h-[24px]" color="#1F1F1F" />
                       </div>
                     </div>
