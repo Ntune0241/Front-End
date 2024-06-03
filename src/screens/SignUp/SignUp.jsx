@@ -107,7 +107,7 @@ export const SignUp = () => {
                       <div className="flex flex-col h-[35px] items-start justify-center relative flex-1 grow">
                         <div className="inline-flex items-center relative flex-[0_0_auto]">
                           <div className="relative w-fit mt-[-1.00px] [font-family:'Nunito',Helvetica] font-normal text-tersier-2 text-[16px] tracking-[0] leading-[22.4px] whitespace-nowrap">
-                            <input type="text" size="58" className="border-none outline-none "></input>
+                            <input type="password" size="58" className="border-none outline-none "></input>
                           </div>
                         </div>
                         <div className="inline-flex items-center px-[4px] py-0 absolute top-[-16px] left-[-4px] bg-white">
