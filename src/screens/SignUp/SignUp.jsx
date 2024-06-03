@@ -9,6 +9,7 @@ export const SignUp = () => {
   return (
     <div className="bg-white flex flex-row justify-center w-full">
       <div className="bg-white overflow-hidden w-[1440px] h-[966px] relative">
+        <form>
         <div className="absolute w-[732px] h-[1024px] top-[-29px] left-0 bg-primary-2">
           <img
             className="absolute w-[486px] h-[529px] top-[157px] left-[120px] object-cover"
@@ -47,12 +48,41 @@ export const SignUp = () => {
                   </div>
                 </div>
                 <div className="flex w-[486px] items-start gap-[24px] relative flex-[0_0_auto]">
-                  <input type="text"
-                    className="!flex-1 !grow !w-[unset]"/>
-                  <input type="tel"
-                    className="!flex-1 !grow !w-[unset]"
-                  />
+                  <div className="flex flex-col items-start gap-[10px] relative self-stretch w-[unset] flex-1 bg-white rounded-[15px] border border-solid border-[#79747e]">
+                    <div className="flex items-center pl-[16px] pr-0 py-[4px] relative self-stretch w-full flex-[0_0_auto] rounded-[4px_4px_0px_0px]">
+                      <div className="flex flex-col h-[35px] items-start justify-center relative flex-1 grow">
+                        <div className="inline-flex items-center relative flex-[0_0_auto]">
+                          <div className="relative w-fit mt-[-1.00px] [font-family:'Nunito',Helvetica] font-normal text-tersier-2 text-[16px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+                          <input type="text" size="22" className="!flex-1 !grow !w-[unset] outline-none border-none"/>
+                          </div>
+                        </div>
+                        <div className="inline-flex items-center px-[4px] py-0 absolute top-[-16px] left-[-4px] bg-white">
+                          <div className="relative w-fit mt-[-1.00px] [font-family:'Nunito',Helvetica] font-normal text-tersier-2 text-[14px] tracking-[0] leading-[19.6px] whitespace-nowrap">
+                            Nama Depan
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div className="flex flex-col items-start gap-[10px] relative self-stretch w-[unset] flex-1 bg-white rounded-[15px] border border-solid border-[#79747e]">
+                    <div className="flex items-center pl-[16px] pr-0 py-[4px] relative self-stretch w-full flex-[0_0_auto] rounded-[4px_4px_0px_0px]">
+                      <div className="flex flex-col h-[35px] items-start justify-center relative flex-1 grow">
+                        <div className="inline-flex items-center relative flex-[0_0_auto]">
+                          <div className="relative w-fit mt-[-1.00px] [font-family:'Nunito',Helvetica] font-normal text-tersier-2 text-[16px] tracking-[0] leading-[22.4px] whitespace-nowrap">
+                          <input type="text" size="22" className="!flex-1 !grow !w-[unset] outline-none border-none"/>
+                          </div>
+                        </div>
+                        <div className="inline-flex items-center px-[4px] py-0 absolute top-[-16px] left-[-4px] bg-white">
+                          <div className="relative w-fit mt-[-1.00px] [font-family:'Nunito',Helvetica] font-normal text-tersier-2 text-[14px] tracking-[0] leading-[19.6px] whitespace-nowrap">
+                            Nama Belakang
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+
                 <div className="self-stretch w-full flex-[0_0_auto] rounded-[4px_4px_0px_0px] flex flex-col items-start relative">
                   <div className="flex flex-col items-start gap-[10px] relative self-stretch w-full flex-[0_0_auto] bg-white rounded-[15px] border border-solid border-[#79747e]">
                     <div className="flex items-center pl-[16px] pr-0 py-[4px] relative self-stretch w-full flex-[0_0_auto] rounded-[4px_4px_0px_0px]">
@@ -145,6 +175,7 @@ export const SignUp = () => {
           menuItemDivClassName="!underline !text-primary-2 !font-bold"
           to="/sign-up"
         />
+      </form>
       </div>
     </div>
   );
